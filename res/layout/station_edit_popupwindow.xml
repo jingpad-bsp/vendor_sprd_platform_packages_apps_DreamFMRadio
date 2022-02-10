@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_edit_station"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popupwindow_bg"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp" >
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="@dimen/fm_popupwindow_item_width"
+        android:layout_height="@dimen/fm_popupwindow_item_height"
+        android:paddingLeft="@dimen/fm_popupwindow_item_padding"
+        android:alpha="0.87"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/rename"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/fm_primary_text_size" />
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="@dimen/fm_popupwindow_item_width"
+        android:layout_height="@dimen/fm_popupwindow_item_height"
+        android:paddingLeft="@dimen/fm_popupwindow_item_padding"
+        android:alpha="0.87"
+        android:singleLine="true"
+        android:text="@string/delete_title_tip"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/fm_primary_text_size" />
+</LinearLayout>

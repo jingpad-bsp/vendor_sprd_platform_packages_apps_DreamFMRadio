@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/fm_list_item_height"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_Favorite_Tag"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fm_list_item_height"
+        android:layout_marginStart="18dp"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:textColor="#098993"
+        android:visibility="gone" />
+</LinearLayout>

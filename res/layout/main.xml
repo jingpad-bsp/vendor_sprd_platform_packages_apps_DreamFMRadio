@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="afterDescendants" >
+    <LinearLayout
+        android:id="@+id/up_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@color/theme_windowBackground"
+        android:layout_above="@+id/line_button"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/main_circle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true">
+
+            <com.android.fmradio.views.FmCircleSeekBar
+                android:id="@+id/m_circleSeekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/station_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/mainui_search_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainui_search_tips"
+                    android:layout_gravity="center"
+                    android:textColor="@color/mainui_station_info"
+                    android:layout_marginTop="6dip"
+                    android:includeFontPadding="false"
+                    android:textSize="16sp"
+                    android:visibility="invisible"
+                    android:fontFamily="sans-serif-thin"/>
+                <TextView
+                    android:id="@+id/tv_perencet_set_perencet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/mainui_station_info"
+                    android:includeFontPadding="false"
+                    android:textSize="56dp"
+                    android:fontFamily="sans-serif-thin"/>
+
+                <TextView
+                    android:id="@+id/freq_mhz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MHz"
+                    android:layout_gravity="center"
+                    android:textColor="@color/mainui_station_info"
+                    android:layout_marginTop="1dp"
+                    android:includeFontPadding="false"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-thin"/>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/rds_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/station_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.87"
+                android:singleLine="true"
+                android:includeFontPadding="false"
+                android:textColor="@color/white_color"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/station_rds_ps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.87"
+                android:singleLine="true"
+                android:layout_marginTop="4dp"
+                android:includeFontPadding="false"
+                android:textColor="@color/white_color"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/station_rds_rt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.87"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:includeFontPadding="false"
+                android:layout_marginTop="4dip"
+                android:textColor="@color/white_color"
+                android:textSize="12sp">
+                <requestFocus/>
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fm_mainui_button_line_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/line_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/button_prevstation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/talk_prev_station"
+                android:drawableTop="@drawable/btn_fm_previous"
+                android:text="@string/fm_prevstation_title"
+                android:gravity="bottom|center"
+                android:textSize="12sp"
+                android:background="@drawable/mainui_button_click_background"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/play_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/fm_turn_on"
+                android:text="@string/fm_stopplay_title"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:gravity="bottom|center"
+                android:textColor="@color/theme_windowBackground"
+                android:drawableTop="@drawable/btn_fm_start_selector"
+                android:background="@drawable/mainui_button_click_background"/>
+
+            <TextView
+                android:id="@+id/button_nextstation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/talk_next_station"
+                android:text="@string/fm_nextstation_title"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:gravity="bottom|center"
+                android:drawableTop="@drawable/btn_fm_next_selector"
+                android:background="@drawable/mainui_button_click_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/button_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/btn_fm_rec_selector"
+                android:background="@drawable/mainui_button_click_background"
+                android:textSize="12sp"
+                android:gravity="bottom|center"
+                android:singleLine="true"
+                android:text="@string/record_title"
+                android:contentDescription="@string/record_title"/>
+
+            <TextView
+                android:id="@+id/button_add_to_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/btn_fm_favorite_off_selector"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:text="@string/favorites"
+                android:background="@drawable/mainui_button_click_background"
+                android:gravity="bottom|center"/>
+
+            <TextView
+                android:id="@+id/button_enter_to_stationlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/btn_fm_list_selector"
+                android:background="@drawable/mainui_button_click_background"
+                android:contentDescription="@string/station_title"
+                android:text="@string/station_title"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:gravity="bottom|center"/>
+        </LinearLayout>
+    </LinearLayout>>
+</RelativeLayout>
+

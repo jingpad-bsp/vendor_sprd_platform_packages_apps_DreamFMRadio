@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="6295623783273502721">"วิทยุ FM"</string>
+    <string name="toast_station_searched" msgid="4804871039582320419">"จำนวนสถานีที่สามารถรับฟังได้ที่ค้นพบ"</string>
+    <string name="toast_cannot_search" msgid="8816492120732683772">"ไม่สามารถค้นหาสถานีที่สามารถรับฟังได้"</string>
+    <string name="optmenu_speaker" msgid="3726411287495057671">"ลำโพง"</string>
+    <string name="optmenu_earphone" msgid="5400875884296655508">"หูฟัง"</string>
+    <string name="save" msgid="7204164791719833151">"บันทึก"</string>
+    <string name="toast_sdcard_missing" msgid="3707819946661311504">"ไม่พบการ์ด SD!"</string>
+    <string name="toast_sdcard_insufficient_space" msgid="1150004976629615550">"พื้นที่ในการ์ด SD ไม่เพียงพอ!"</string>
+    <string name="toast_recorder_internal_error" msgid="8218803072221129182">"เกิดข้อผิดพลาดภายในตัวบันทึก!"</string>
+    <string name="btn_save_recording" msgid="7888937971238580699">"บันทึก"</string>
+    <string name="btn_discard_recording" msgid="4316913232405323087">"ยกเลิก"</string>
+    <string name="edit_recording_name_hint" msgid="3582848435650002280">"พิมพ์ชื่อไฟล์ที่นี่"</string>
+    <string name="already_exists" msgid="3665755106404888637">"มีอยู่แล้ว"</string>
+    <string name="not_available" msgid="6709882926236090124">"ใช้ไม่ได้ในขณะนี้"</string>
+    <string name="talk_prev_station" msgid="8940546148820098004">"สถานีก่อนหน้า"</string>
+    <string name="talk_decrease" msgid="6796562419095928389">"ลดความถี่"</string>
+    <string name="talk_increase" msgid="7207549524364881559">"เพิ่มความถี่"</string>
+    <string name="talk_next_station" msgid="2711772562090360378">"สถานีถัดไป"</string>
+    <string name="talk_add_favorite" msgid="1560744966239678417">"เพิ่มเข้าในรายการโปรด"</string>
+    <string name="talk_start_recording" msgid="2081128687917550957">"เริ่มการบันทึก"</string>
+    <string name="more" msgid="8975740653205119861">"อื่นๆ"</string>
+    <string name="recording_tips" msgid="9013420338482370789">"กำลังบันทึก..."</string>
+    <string name="fm_symbol" msgid="2254633383284842986">"FM"</string>
+    <string name="fm_turn_on" msgid="407678074231499621">"เล่นหรือหยุดวิทยุ FM"</string>
+    <string name="fm_over_start_record" msgid="2072548132520550718">"เริ่มการบันทึก"</string>
+    <string name="fm_over_record_list" msgid="8958996187616432424">"รายการที่บันทึกไว้"</string>
+    <string name="fm_station_list_menu_refresh" msgid="1351081387336325789">"กำลังรีเฟรช"</string>
+    <string name="fm_no_headset_text" msgid="6831656307562812248">"หากต้องการเริ่มฟังวิทยุ ให้เสียบชุดหูฟัง\n(จะใช้เป็นสายอากาศ)"</string>
+    <string name="station_title" msgid="4027617747760605320">"สถานีวิทยุ"</string>
+    <string name="station_searching_tips" msgid="6970095710072278870">"กำลังสแกนสถานีวิทยุ"</string>
+    <string name="station_empty_text" msgid="6847327406626186898">"ไม่พบสถานี"</string>
+    <string name="minutes_label" msgid="3225846493097986594">"น."</string>
+    <string name="seconds_label" msgid="3998011734682420096">"ว."</string>
+    <string name="timer_default" msgid="8062388403825907344">"00"</string>
+    <string name="record_title" msgid="8695283158200902780">"การบันทึก"</string>
+    <string name="record_notification_message" msgid="4999850730062263290">"อยู่ระหว่างบันทึก"</string>
+    <string name="stop_record" msgid="4787351642158009287">"หยุดการบันทึก"</string>
+    <string name="save_dialog_title" msgid="6977508764748097072">"บันทึกรายการไหม?"</string>
+    <string name="save_dialog_caption" msgid="8618327604827517841">"หากต้องการฟังการบันทึก ให้เปิดแอปเล่นเพลง"</string>
+    <string name="favorites" msgid="2732520024474501799">"รายการโปรด"</string>
+    <string name="rename" msgid="1770973764866255260">"เปลี่ยนชื่อ"</string>
+    <string name="station_rename_hint" msgid="4291305834497293746">"ป้อนชื่อสถานี"</string>
+    <string name="remove_favorite" msgid="3128670507986192468">"นำรายการโปรดออก"</string>
+    <string name="toast_record_saved" msgid="2543677492878715874">"บันทึกการบันทึกแล้ว"</string>
+    <string name="toast_record_not_saved" msgid="6526674547687611282">"การบันทึกไม่ถูกบันทึกไว้"</string>
+    <string name="toast_listen" msgid="2014315478895754055">"ฟัง"</string>
+    <string name="toast_station_renamed" msgid="2185292052267585710">"เปลี่ยนชื่อสถานีแล้ว"</string>
+    <string name="station_freq">"ความถี่สถานี"</string>
+     <string name="change_frequency">"การเปลี่ยนแปลงความถี่"</string>
+     <string name="record_amr">"ประเภท AMR (คุณภาพต่ำ)"</string>
+     <string name="record_3gpp">"ประเภท 3GPP (คุณภาพสูง)"</string>
+     <string name="button_ok">"ตกลง"</string>
+     <string name="button_cancel">"ยกเลิก"</string>
+     <string name="range_error">"อยู่นอกช่วงวิทยุ (87.5-108 เมกะเฮิรตซ์)"</string>
+     <string name="freq_input_info">"โปรดป้อนความถี่"</string>
+     <string name="fm_over_record_format">"รูปแบบการบันทึก"</string>
+     <string name="select_file_type">"โปรดเลือกประเภท"</string>
+     <string name="storage_phone">"โทรศัพท์"</string>
+     <string name="storage_sd">"การ์ด SD"</string>
+     <string name="select_file_path">"เลือกพาธที่จัดเก็บข้อมูล"</string>
+     <string name="record_path">"ตั้งค่าพาธการบันทึก"</string>
+     <string name="from_current_search">"ค้นหาจากปัจจุบัน"</string>
+     <string name="error_permissions">"แอพไม่ได้รับอนุญาตที่จำเป็นต้องใช้เพื่อเรียกใช้ โปรดตรวจสอบการตั้งค่าการอนุญาตของคุณ"</string>
+     <string name="dialog_dismiss">"ปิด"</string>
+
+    <string name="fm_play">"เล่นวิทยุ FM"</string>
+     <string name="fm_stop">"หยุดเล่นวิทยุ FM"</string>
+     <string name="toast_record_not_saved_fortime">"เวลาที่บันทึกน้อยกว่า 1 วินาที ไม่ได้บันทึก"</string>
+     <string name="station_change_freq_hint">"ป้อนคลื่นความถี่สถานี"</string>
+     <string name="toast_station_freq_changed">"คลื่นความถี่สถานีได้เปลี่ยนแปลงแล้ว"</string>
+     <string name="toast_play_fm">"หากต้องการจะเริ่มบันทึก โปรดเล่นวิทยุ FM"</string>
+    <string name="same_application_running">"โปรแกรมอื่นกำลังใช้อุปกรณ์บันทึกข้อมูลอยู่ โปรดปิดโปรแกรมนี้!"</string>
+     <string name="rds_switch_off">"ปิด RDS"</string>
+     <string name="rds_switch_on">"เปิด RDS"</string>
+     <string name="rds_af_switch_off">"ปิด AF"</string>
+     <string name="rds_af_switch_on">"เปิด AF"</string>
+     <string name="fm_regularly_poweroff">"ปิดแบบกำหนดเวลาไว้"</string>
+     <string name="cancel_regularly_poweroff">"ยกเลิกกำหนดเวลา"</string>
+     <string name="time_10min">"15นาที"</string>
+     <string name="time_20min">"30นาที"</string>
+     <string name="time_30min">"60นาที"</string>
+     <string name="time_60min">"90นาที"</string>
+     <string name="time_units">"นาที"</string>
+     <string name="time_scustom_setting">"การตั้งค่าที่กำหนดเอง"</string>
+     <string name="fm_record_list">"รายการบันทึก FM"</string>
+     <string name="search_hint">"ค้นหาบันทึก FM&#8230;"</string>
+     <string name="favorite_station_tag">"สถานีโปรด"</string>
+     <string name="other_station_tag">"สถานีอื่นๆ"</string>
+     <string name="station_edit">"แก้ไขสถานี"</string>
+     <string name="station_batch_operation">"ดำเนินการเป็นชุด"</string>
+     <string name="station_name">"ชื่อสถานี"</string>
+     <string name="select_all">"เลือกทั้งหมด"</string>
+     <string name="cancel_select_all">"ยกเลิกเลือกทั้งหมด"</string>
+     <string name="progress_deleting">"กำลังลบ"</string>
+     <string name="no_storage_permission">"ไม่มีสิทธิ์การเข้าใช้ที่เก็บข้อมูล!"</string>
+     <string name="no_allow_play_calling">"ไม่อนุญาตให้เล่นเพลงในระหว่างการโทร (วิทยุ/วิดีโอ)"</string>
+     <string name="playback_failed">"แอปเล่นเพลงไม่สนับสนุนชนิดของไฟล์เสียงนี้"</string>
+     <string name="play_error">"เกิดข้อผิดพลาดในการเล่น"</string>
+     <string name="list_exists">"ช่องมีอยู่แล้วในรายการช่อง"</string>
+     <string name="batch_operation">"ดำเนินการเป็นชุด"</string>
+     <string name="input_error">"โปรดใส่เวลาที่ถูกต้อง"</string>
+     <string name="record_start">"เริ่มต้น"</string>
+     <string name="edit_freq">"แก้ไขช่อง"</string>
+     <string name="toast_storage_device_missing">"อุปกรณ์เก็บข้อมูลของคุณหายไป!"</string>
+     <string name="fm_prevstation_title">"ก่อนหน้า"</string>
+     <string name="fm_stopplay_title">"หยุด"</string>
+     <string name="fm_nextstation_title">"ถัดไป"</string>
+     <string name="airplane_title">"การเตือนโหมดเครื่องบิน"</string>
+     <string name="airplane_message">"ไม่สามารถเปิดวิทยุ FM ในโหมดเครื่องบิน"</string>
+     <string name="delete_title_tip">"ลบ"</string>
+     <string name="playmode_title_tip">"โหมดเล่น"</string>
+    <string name="record_mp3">"ประเภท MP3 (คุณภาพสูง)"</string>
+     <string name="toast_record_not_saved_tmpfile_deleted">"ไม่มีไฟล์การบันทึกเสียงอยู่ในขณะนี้ ไม่มีการบันทึกไว้"</string>
+     <string name="station_name_exists">"มีชื่อสถานีนี้อยู่แล้ว"</string>
+     <string name="station_name_notnull">"ชื่อสถานีไม่ควรจะว่างเปล่า"</string>
+     <string name="recording_name_notnull">"ชื่อไม่ควรจะว่างเปล่า"</string>
+     <string name="recording_name_illegal">"ชื่อมีอักขระที่ไม่สามารถใช้งานได้\n\\&#058;&#042;&#063;&#034;&#060;&#062;&#124;&#047;"</string>
+     <string name="input_length_overstep">"ข้อมูลที่ป้อนถึงขีดจำกัดความยาวสูงสุดแล้ว"</string>
+     <string name="list_view_empty">"รายการ ว่างเปล่า"</string>
+     <plurals name="confirm_delfile">
+         <item quantity="one">"คุณแน่ใจว่าต้องการลบไฟล์หรือไม่?"</item>
+         <item quantity="other">"คุณแน่ใจว่าต้องการลบไฟล์หรือไม่?"</item>
+     </plurals>
+     <string name="hours_label">"ชม."</string>
+     <string name="toast_type_c_error">"FM ไม่รองรับชุดหูฟัง Type-c"</string>
+     <string name="station_delete">"แน่ใจไหมว่าจะลบสถานีนี้"</string>
+     <string name="dialog_title">"โปรดทราบ"</string>
+     <string name="recording_is_preparing">"การอัดบันทึกกำลังเตรียมการเล่น เลือกไม่ได้!"</string>
+
+     <string name="error_external_storage_access">"ไม่สามารถเข้าถึงเนื้อที่เก็บข้อมูลภายนอก"</string>
+     <string name="feedback_description_external_access">"โปรดอนุญาตให้เข้าถึงหรือเคลียร์เนื้อที่เก็บข้อมูลของแอปแล้วลองอีกครั้ง"</string>
+     <string name="superuser_request_confirm">"FM ไม่มีสิทธิ์เข้าถึงการ์ด SD โปรดเลือกไดเรกทอรีรากภายนอก SANDISK SD card แล้วให้สิทธิ์ FM ใช้งาน"</string>
+     <string name="stop_recording">"คุณหยุดการอัดบันทึกหรือไม่"</string>
+     <string name="recorder_internal_error">"อุปกรณ์ปัจจุบันใช้งานไม่ได้ โปรดลองเริ่มฟังก์ชันการอัดบันทึกอีกครั้ง"</string>
+     <string name="record_error">"ข้อผิดพลาด"</string>
+     <string name="power_button_power_on">"เปิด"</string>
+     <string name="power_button_power_off">"ปิด"</string>
+     <string name="timer_power_down_toast">"หมดเวลา FM ปิดการทำงาน"</string>
+     <string name="toast_record_saved_end">" บันทึกแล้ว"</string>
+     <string name="headset_plug_out_tips">"FM กำลังปิดการทำงาน..."</string>
+     <string name="mainui_search_tips">"กำลังค้นหา..."</string>
+</resources>
